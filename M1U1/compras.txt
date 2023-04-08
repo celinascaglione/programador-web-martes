@@ -4,6 +4,3 @@ off
 lavandina
 aceite
 bananas
-peras
-paltas
-calabaza
