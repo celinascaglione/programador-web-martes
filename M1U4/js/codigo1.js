@@ -1,4 +1,4 @@
-const distancia= prompt ('Ingrese a qué distancia se encuentra:', '');
+const distancia= parseInt(prompt ('Ingrese a qué distancia se encuentra:', ''));
 if(distancia>100000){
     alert('Te recomiendo ir en avión')
 }else
