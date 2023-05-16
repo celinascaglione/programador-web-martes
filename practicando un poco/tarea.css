@@ -1,0 +1,32 @@
+
+.contenedor {
+            display: flex;
+            border: 2px solid #333;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+.box {
+            height: 50px;
+            width: 50px;
+            border: 2px solid #333;
+        }
+
+        .pri {
+            background-color: #9B0FDB;
+        }
+
+        .seg {
+            background-color: #ffea00;
+        }
+
+        .ter {
+            background-color: #04DB53;
+        }
+    
+        <link rel="stylesheet" href="tarea.css">
+
+
+
+        
+   

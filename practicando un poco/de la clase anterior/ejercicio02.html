@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXTAREA Y CONTADOR</title>
+</head>
+<body>
+    <div class="box">
+        <textarea rows="3" maxlength="120" id="mensaje" name="contenedor"></textarea>
+        <div id="contador">0/120</div>
+      </div>
+  
+  <style>
+    align-items: center;
+  justify-content: center;
+
+  
+  .box{
+  display: flex;
+  height: 100px;
+  width: 500px
+  }
+  textarea{
+  width: 50%;
+  height: 100px;
+
+}
+  </style>
+  <script>
+const mensaje = document.getElementById('mensaje');
+const contador = document.getElementById('contador');
+
+mensaje.addEventListener('input', function(e) {
+    const target = e.target;
+    const longitudMax = target.getAttribute('maxlength');
+    const longitudAct = target.value.length;
+    contador.innerHTML = `${longitudAct}/${longitudMax}`;
+});
+
+</script>
+</body>
+</html>
+
+
+
+

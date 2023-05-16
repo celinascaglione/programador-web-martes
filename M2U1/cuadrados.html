@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tarea M2U2</title>
+
+</head>
+<body>
+    <div class="contenedor">
+        <div class="box pri" onclick="fondo('red')"></div>
+        <div class="box seg" onclick="fondo('blue')"></div>
+        <div class="box ter" onclick="fondo('orange')"></div>
+    </div>
+    <style>
+        .contenedor {
+            display: flex;
+            border: 2px solid #333;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+    
+    .box {
+            height: 50px;
+            width: 50px;
+            border: 2px solid #333;
+        }
+    
+        .pri {
+            background-color: #9B0FDB;
+        }
+    
+        .seg {
+            background-color: #ffea00;
+        }
+    
+        .ter {
+            background-color: #04DB53;
+        }
+    </style>
+    <script>
+    function fondo(color) {
+        document.querySelector('body').style.background = color;
+    }
+    </script>
+
+
+</body>
+</html>
