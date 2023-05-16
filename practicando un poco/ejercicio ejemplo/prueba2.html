@@ -30,18 +30,25 @@
   <script>
 const mensaje = document.getElementById('mensaje');
 const contador = document.getElementById('contador');
+texto.addEventListener('input', function(e){
+    const target = e.target;
+    const longitudMax = target.getAttribute('maxlength');
+    const longitudAct = target.value.length;
+            contar.innerText = `${longitudAct}/${longitudMax}`;
 
-mensaje.addEventListener('input', function(e) {
+        })
+
+
+/*mensaje.addEventListener('input', function(e) {
     const target = e.target;
     const longitudMax = target.getAttribute('maxlength');
     const longitudAct = target.value.length;
     contador.innerHTML = `${longitudAct}/${longitudMax}`;
 });
+*/
+
+
 
 </script>
 </body>
 </html>
-
-
-
-
