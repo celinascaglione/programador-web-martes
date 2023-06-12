@@ -1,0 +1,27 @@
+.header {
+        background: url(../imgcs/imgarquitectosplanos/8.jpg)  no-repeat center;
+        background-size: cover;
+       
+    height: 40vh;
+    opacity: 0.90;
+    
+  }
+
+  .header .navbar {
+    opacity: 0.85;
+    
+    /*
+  background-color: transparent !important;*/
+  }  
+
+  #home p{
+    font-family: 'Dancing Script', cursive;
+    font-style: oblique;
+    text-align: center;
+    font-weight: 500;
+
+  }
+  #home h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+  }
