@@ -1,11 +1,13 @@
-.bg-light{
+/*.bg-light{
    background-color: transparent !important;
+} Antes la hice transparente
+*/
+html {
+   scroll-behavior: smooth;
 }
-
-
 .navbar-brand{
 color: #fff;   
-font-size: 25px;
+font-size: 18px;
 }
 .navbar-nav .nav-link{
    color: #fff;
@@ -21,6 +23,7 @@ font-size: 25px;
    
 
 .banner {
+   margin-top: 3em;
  position: relative;
 width: 100%;
 /*si es toda la hoja, sino menor% más chico el banner*/
@@ -87,7 +90,100 @@ font-weight: 500;
  }   
  100%{
     background-image: url(../img/phero4.jpg);
- }
+ }   
+}
 
+.quien {
+   background-image: url(../img/fondos1/blanco2.webp);
+   opacity: 0.70
+   width: 100%;
+   margin-top: 3em;
+}
     
+   /*
+width: 100%;
+   background-color: #a5a4af5b;*/
+   
+.quien h5{
+font-family: 'Dosis', sans-serif;
+font-weight: 400;
+
+}   
+.quien h2 {
+/*font-family: 'Dosis', sans-serif;
+font-weight: 400;*/
+font-family: 'Dancing Script', cursive;
+font-style: oblique;
+font-weight: 500;
+}
+
+.quien p {
+   font-family: 'Dosis', sans-serif;
+   text-align:justify;
+   font-weight: 400;
+   font-size: 18px;
+}   
+/*#referents {
+   /*background-color: #9d98d65b;
+   padding-bottom: 50px;
+}*/
+
+#referents h3 {
+   font-family: 'Dancing Script', cursive;
+}
+.card-img-top {
+   object-fit: cover;
+}
+
+.card-text {
+   text-align:justify;
+}
+.card-title {
+   text-align:center;
+}
+
+/*#bannernosotros {
+   background-image: url(../img/byn6.jfif);
+   color: black;
+   background-size: cover;
+background-position: center;*/
+  
+
+.mapa iframe{
+   width: 100%;
+   aspect-ratio: 1.2;
+}
+#contactanos h2 {
+   font-family: 'Dosis', sans-serif;
+   font-weight: 500;
+}
+.dropdown-menu {
+   background-color: lightgray;
+   
+}
+#contacts {
+   width: 100%;   
+   background-image: url(../img/fondos1/planosazulados.jpg);
+   opacity: 0.70;
+   font-weight: bold;
+   font-family: 'Dosis', sans-serif;
+   margin-top: 3em;
+}
+.proyecticon {
+   object-fit: cover;
+   border: 1px solid rgb(198, 196, 202);
+   align-items: center;
+   display: flex;
+   /*justify-content:space-between;*/
+   justify-content: space-evenly;
+   margin-left: 7.5em;
+   margin-top: 3em;
+   margin-bottom: 1em;
+}
+.scroll_section {
+   scroll-margin-top: 60px;
+}
+
+footer {
+   background-color: lightgrey;
 }
