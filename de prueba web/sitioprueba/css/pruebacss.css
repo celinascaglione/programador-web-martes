@@ -96,8 +96,8 @@ font-weight: 500;
 .quien {
    background-image: url(../img/fondos1/blanco2.webp);
    opacity: 0.70
-   width: 100%;
-   margin-top: 3em;
+  /*width: 100%;*/
+   /*margin-top: 3em;*/
 }
     
    /*
